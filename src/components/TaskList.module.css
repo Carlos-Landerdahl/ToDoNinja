@@ -77,7 +77,6 @@ svg {
 
     max-width: 735px;
     width: 100%;
-    height: 72px;
     margin: 12px auto;
 
     background-color: var(--gray-400);
@@ -88,6 +87,10 @@ ul {
     padding: 10px;
 }
 
+label {
+    margin-left: 40px;
+}
+
 .containerTask > div {
     display: flex;
     justify-content: flex-start;
@@ -95,7 +98,6 @@ ul {
     gap: 30px;
     position: relative;
 
-    max-width: 39.875rem;
     width: 100%;
     padding: 20px;
 
@@ -128,7 +130,6 @@ ul {
 
 .checkbox {
     position: absolute;
-    top: 27px;
     left: 17px;
     height: 24px;
     width: 24px;
@@ -138,10 +139,6 @@ ul {
     cursor: pointer;
     border: 1px solid var(--blue);
     transition: all ease .5s;
-}
-
-.titleTodo {
-    margin-left: 35px;
 }
 
 .containerTask input:checked ~ .checkbox {
